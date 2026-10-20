@@ -30,7 +30,7 @@ def show_waveform(encoded):
     print("Low:  " + low)
 
 
-print("=== Manchester Encoding Program ===")
+print("Manchester Encoding Program")
 print("0 = High to Low")
 print("1 = Low to High")
 
@@ -50,4 +50,7 @@ print("\nOriginal binary: " + binary)
 print("Manchester encoded: " + encoded)
 print("\nWaveform (each group of 3 characters represents half a bit):")
 show_waveform(encoded)
-print("\nEncoding completed successfully!")
+
+print("\nEncoding completed")
+
+input("\nPress Enter again to exit")
